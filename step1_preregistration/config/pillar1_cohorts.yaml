@@ -1,0 +1,106 @@
+# Pillar 1 locked cohort configuration (PLAN v1.4)
+# Tier A = primary meta-analysis; Tier B = pre-specified sensitivity; Tier C = exploratory.
+# Replication cohorts (DKD, IgAN) are analyzed SEPARATELY, never pooled with discovery.
+
+discovery:
+  # AKI discovery axis (PLAN v1.6): two complementary acute-injury CONTEXTS that
+  # must BOTH reproduce. Gate-1 requires cross-context direction concordance,
+  # earning the 'conserved EV injury program across AKI contexts' claim.
+  AKI:
+    native_context:          # primary anchor: native-kidney AKI
+      - gse: GSE139061
+        platform: RNA-seq
+        n_case: 39
+        n_control: 9
+        control_type: nephrectomy_margin
+        tissue: native_kidney
+        tier: A
+    transplant_ATN_context:  # transplant-associated ATN (allograft biopsies)
+      - gse: GSE30718
+        platform: microarray_GPL570
+        n_case: 28
+        n_control: 19
+        control_type: nephrectomy+pristine_protocol
+        tissue: renal_allograft
+        tier: A
+        note: transplant/allograft ATN (not native); explicit context axis
+      - gse: GSE53769
+        platform: microarray_GPL16686
+        n_case: 8
+        n_control: 10
+        control_type: protocol_biopsy
+        tissue: renal_allograft
+        tier: A_transplant_arm   # promoted from generic sensitivity into transplant-ATN arm
+        note: transplant ATN; small n
+  CKD:
+    tier_B:   # ERCB resources: strong but few controls / need compartment tagging
+      - gse: GSE104954
+        platform: microarray_ERCB_TI
+        n_case: 62
+        n_control: 5
+        control_type: nephrectomy_margin
+        caveat: few controls; tag by diagnosis+compartment
+      - gse: GSE99340
+        platform: microarray_ERCB
+        n_case: 120
+        n_control: 21
+        control_type: living_donor+nephrectomy
+        caveat: tag compartment (glom+TI)
+      - gse: GSE47185
+        platform: microarray_ERCB
+        n_case: 34
+        n_control: 27
+        control_type: living_donor+nephrectomy
+        caveat: tag compartment
+
+replication:   # analyzed separately, never pooled
+  DKD:
+    - gse: GSE142153
+      tier: B
+      platform: microarray_GPL6480
+      tissue: peripheral_blood_PBMC
+      caveat: PBMC (blood), not kidney tissue; ineligible for the kidney-tissue replication role
+      n_case: 23
+      n_control: 10
+      control_type: healthy
+    - gse: GSE294519
+      tier: B
+      platform: RNA-seq
+      n_case: 23
+      n_control: 13
+      control_type: tumor_adjacent
+  IgAN:
+    - gse: GSE104948
+      tier: B
+      platform: microarray_ERCB_glom
+      n_case: 27
+      n_control: 5
+      control_type: tumor_nephrectomy
+
+exploratory:
+  CKD_progression:
+    - gse: GSE339456
+      tier: C
+      platform: RNA-seq_FFPE
+      contrast: stable_vs_progressive   # no healthy control
+      caveat: progression contrast, not case/control; FFPE
+
+# Analysis parameters (PLAN v1.3)
+effect_size:
+  measure: log2FC
+  variance: limma_SE_squared
+  meta_model_primary: DL           # DerSimonian-Laird random effects
+  meta_model_sensitivity: REML
+  report: [pooled_log2FC, CI95, cochran_Q, I2]
+  rank_primary: FDR_pooled_p
+  rank_secondary: abs_pooled_effect
+
+microarray_arm: tagged_sensitivity   # D1 approved
+control_heterogeneity: tag_and_sensitivity_meta_analysis   # D2 approved
+
+gene_sets:
+  frozen_artifact: 00_preregistration/feasibility/ev_genesets_frozen_v1.3.json
+  primary: EV_TIER1_PRIMARY
+  sensitivity: EV_TIER2_CARGO
+  background: NONEV_SECRETED_BACKGROUND
+  negative_controls: [CTRL_MITOCHONDRIAL, CTRL_RIBOSOMAL, CTRL_LYSO_ENDOSOMAL]
