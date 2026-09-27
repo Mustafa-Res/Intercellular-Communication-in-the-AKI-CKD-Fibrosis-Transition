@@ -1,0 +1,15 @@
+{
+  "panel": [
+    "HAVCR1",
+    "LCN2",
+    "SPP1",
+    "TIMP1",
+    "KRT20",
+    "VCAM1",
+    "CST3",
+    "PROM1"
+  ],
+  "rationale": "curated canonical human tubular-injury markers",
+  "overlap_with_EV_TIER1": [],
+  "source": "canonical AKI/tubular-injury literature (KIM-1/HAVCR1, NGAL/LCN2, osteopontin/SPP1, TIMP1, KRT20, VCAM1, CST3, PROM1)"
+}
