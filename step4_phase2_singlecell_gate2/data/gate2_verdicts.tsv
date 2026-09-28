@@ -1,0 +1,7 @@
+criterion	pass_	detail
+2A_activation_replication	False	NES=1.240 FDR=0.0620 (need NES>0 & FDR<0.05 -> part1=False); replication: PT_CKD_NES=1.152, tubular_AKI_NES=1.003 -> part2=True
+2B_specificity	False	EV matched-perm p=3.00e-04 (<0.05 -> True); ribosomal perm p=1.00e-04, GSEA NES=2.54/FDR=0.000 -> ribosomal NULL=False (ribosomal VIOLATED)
+effect_size_floor	False	|NES|=1.240 (>1 -> True); median EV log2FC=0.132 (need >0 AND |.|>=0.20 -> False)
+2C_technical	True	"{""LOO_all_NES_gt0"": true, ""n_datasets_same_direction"": 2, ""ge2_datasets_same_dir"": true, ""assay_suspension_diag"": ""suspension nested in dataset_id; model=~dataset_id+disease_code; estimable within 2 atlases"", ""downsample_frac_NES_gt0"": null, ""downsample_median_ranking_NES"": 1.744405979831511, ""downsample_frac_iters_logFC_ge0.20"": 0.871, ""downsample_frac_iters_logFC_gt0"": 1.0}"
+2D_biological	True	"{""tubular_other_AKI_NES_gt0"": true, ""PT_CKD_NES_gt0"": true, ""module_score_AKI_consistent"": true, ""module_score_cliffs_delta"": 0.7756410256410257}"
+OVERALL_VERDICT	False	FAIL

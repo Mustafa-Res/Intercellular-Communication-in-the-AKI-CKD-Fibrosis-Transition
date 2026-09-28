@@ -1,0 +1,2 @@
+ev_tier1_nes_median_ranking	ev_tier1_fdr_median_ranking	ctrl_ribosomal_nes_median_ranking	ev_tier1_median_logFC_mean	ev_tier1_median_logFC_q05	ev_tier1_median_logFC_q95	frac_iters_median_logFC_gt_0	frac_iters_median_logFC_ge_0p20	n_iters
+1.744405979831511	0.0	3.010548903237564	0.2752143704270961	0.16233107065706073	0.3729022545052843	1.0	0.871	1000
