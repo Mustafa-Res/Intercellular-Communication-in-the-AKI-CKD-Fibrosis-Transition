@@ -1,0 +1,29 @@
+{
+  "consensus_pathways": {
+    "SPP1": {
+      "a12ccb9b": {
+        "dprob": 0.1192389169824748,
+        "rank_up_in_AKI": 3,
+        "up_in_AKI": true
+      },
+      "dea717d4": {
+        "dprob": 0.10327407916588663,
+        "rank_up_in_AKI": 1,
+        "up_in_AKI": true
+      }
+    },
+    "COLLAGEN": {
+      "a12ccb9b": {
+        "dprob": 0.03718538448077241,
+        "rank_up_in_AKI": 5,
+        "up_in_AKI": true
+      },
+      "dea717d4": {
+        "dprob": 0.0685184841978726,
+        "rank_up_in_AKI": 2,
+        "up_in_AKI": true
+      }
+    }
+  },
+  "both_consensus_pathways_up_in_AKI_both_datasets": true
+}

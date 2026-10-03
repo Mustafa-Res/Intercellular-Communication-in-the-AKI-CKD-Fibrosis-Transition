@@ -1,0 +1,15 @@
+{
+  "n_datasets_present": 2,
+  "n_unique_axes_any_engine_any_dataset": 1311,
+  "n_axes_dir_both_in_ge1_dataset": 44,
+  "n_axes_dir_both_in_both_datasets": 5,
+  "n_axes_passes(dir+sig+floor)_in_ge1_dataset": 34,
+  "n_axes_passes(dir+sig+floor)_in_both_datasets": 3,
+  "thresholds": {
+    "CC_SIG_P": 0.05,
+    "CC_FLOOR_ABS": 0.05,
+    "CC_FLOOR_REL": 0.2,
+    "LIANA_FLOOR_RANKPOS": 50,
+    "LIANA_FLOOR_RRA": 0.15
+  }
+}

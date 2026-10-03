@@ -1,0 +1,11 @@
+{
+  "n_consensus_axes": 3,
+  "n_EV_compatible_axes": 0,
+  "n_EV_compatible_axes_reportable": 0,
+  "route_tag_counts": {
+    "Soluble-classical": 2,
+    "ECM": 1
+  },
+  "ev_annotation_informative": true,
+  "interpretation": "0 of 3 consensus injury-linked PT->receiver axes are EV-compatible above the soluble-secretome background."
+}

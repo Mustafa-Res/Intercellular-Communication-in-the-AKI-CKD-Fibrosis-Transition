@@ -1,0 +1,10 @@
+{
+  "n_consensus_axes": 3,
+  "3A": "PASS",
+  "3B": "PASS",
+  "effect_size_floor": "PASS",
+  "3C": "PASS",
+  "3D": "PASS",
+  "OVERALL_VERDICT": "FULL PASS",
+  "ev_overlay_note": "0 of 3 consensus axes EV-compatible (descriptive; never gates)."
+}

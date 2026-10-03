@@ -1,0 +1,9 @@
+{
+  "ev_geneset_version": "v1.3",
+  "n_soluble_negative_controls": 38,
+  "n_controls_scored_EV_compatible": 0,
+  "violating_controls": [],
+  "ev_compatibility_annotation_informative": true,
+  "rule": "EV-compatible iff (ligand in EV_TIER2_CARGO) AND (ligand NOT in NONEV_SECRETED_BACKGROUND [lacks classical signal peptide]).",
+  "note": "EV-compatibility annotation is INFORMATIVE: 0/38 soluble controls scored EV-compatible."
+}

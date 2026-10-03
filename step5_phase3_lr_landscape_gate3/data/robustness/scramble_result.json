@@ -1,0 +1,28 @@
+{
+  "test": "scrambled_cell_label_negative_control",
+  "primary_consensus_keys": [
+    "receiver_endothelial|SPP1|ITGA5_ITGB1",
+    "receiver_stromal|COL4A1|ITGA1_ITGB1",
+    "receiver_stromal|SPP1|ITGAV_ITGB1"
+  ],
+  "seeds": [
+    {
+      "seed": 1,
+      "n_consensus_scrambled": 0,
+      "n_primary_consensus": 3,
+      "n_primary_axes_surviving_scramble": 0,
+      "surviving_axes": [],
+      "scrambled_funnel": {}
+    },
+    {
+      "seed": 2,
+      "n_consensus_scrambled": 0,
+      "n_primary_consensus": 3,
+      "n_primary_axes_surviving_scramble": 0,
+      "surviving_axes": [],
+      "scrambled_funnel": {}
+    }
+  ],
+  "collapses": true,
+  "interpretation": "PASS (Gate 3B specificity): scrambling cell-type labels collapses the consensus; no primary consensus axis survives in any seed."
+}

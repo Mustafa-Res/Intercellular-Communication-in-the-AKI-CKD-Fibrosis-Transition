@@ -1,0 +1,4 @@
+key	receiver	ligand	receptor	pathway_name	n_datasets_pass	cc_dprob_mean	cc_sig_any	liana_rank_improvement_mean	liana_rra_improvement_mean	liana_sig_any
+receiver_endothelial|SPP1|ITGA5_ITGB1	receiver_endothelial	SPP1	ITGA5_ITGB1	SPP1	2	0.030982708373143198	True	91.5	0.25677647504438716	True
+receiver_stromal|SPP1|ITGAV_ITGB1	receiver_stromal	SPP1	ITGAV_ITGB1	SPP1	2	0.0341238607677186	True	82.0	0.21878356828984175	True
+receiver_stromal|COL4A1|ITGA1_ITGB1	receiver_stromal	COL4A1	ITGA1_ITGB1	COLLAGEN	2	0.00876593982211385	True	128.0	0.3603130029516472	True

@@ -1,0 +1,114 @@
+{
+  "test": "subsample_cap_sensitivity",
+  "cap": 4000,
+  "seed": 1,
+  "primary_axes_cap2000": 3,
+  "axes": {
+    "SPP1->ITGA5_ITGB1 (endothelial)": {
+      "per_dataset": {
+        "a12ccb9b": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.01192,
+          "cc_rel_increase": 1.0781,
+          "cc_floor": true,
+          "cc_sig": true,
+          "liana_rank_improvement": 90.0,
+          "liana_rra_improvement": 0.1966,
+          "liana_floor": true,
+          "liana_sig": true,
+          "passes_in_dataset": true
+        },
+        "dea717d4": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.04538,
+          "cc_rel_increase": 1.3756,
+          "cc_floor": true,
+          "cc_sig": true,
+          "liana_rank_improvement": 77.0,
+          "liana_rra_improvement": 0.2463,
+          "liana_floor": true,
+          "liana_sig": true,
+          "passes_in_dataset": true
+        }
+      },
+      "direction_robust_both_datasets": true,
+      "passes_strict_both_datasets_cap4000": true
+    },
+    "SPP1->ITGAV_ITGB1 (stromal)": {
+      "per_dataset": {
+        "a12ccb9b": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.02094,
+          "cc_rel_increase": 2.6665,
+          "cc_floor": true,
+          "cc_sig": true,
+          "liana_rank_improvement": 91.0,
+          "liana_rra_improvement": 0.183,
+          "liana_floor": true,
+          "liana_sig": true,
+          "passes_in_dataset": true
+        },
+        "dea717d4": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.04424,
+          "cc_rel_increase": 1.3654,
+          "cc_floor": true,
+          "cc_sig": true,
+          "liana_rank_improvement": 73.0,
+          "liana_rra_improvement": 0.2375,
+          "liana_floor": true,
+          "liana_sig": true,
+          "passes_in_dataset": true
+        }
+      },
+      "direction_robust_both_datasets": true,
+      "passes_strict_both_datasets_cap4000": true
+    },
+    "COL4A1->ITGA1_ITGB1 (stromal)": {
+      "per_dataset": {
+        "a12ccb9b": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.0023,
+          "cc_rel_increase": 0.1904,
+          "cc_floor": false,
+          "cc_sig": true,
+          "liana_rank_improvement": 40.0,
+          "liana_rra_improvement": 0.1481,
+          "liana_floor": false,
+          "liana_sig": false,
+          "passes_in_dataset": false
+        },
+        "dea717d4": {
+          "up_in_AKI_cc": true,
+          "up_in_AKI_liana": true,
+          "dir_both": true,
+          "cc_dprob": 0.01339,
+          "cc_rel_increase": "inf",
+          "cc_floor": true,
+          "cc_sig": true,
+          "liana_rank_improvement": 164.0,
+          "liana_rra_improvement": 0.4585,
+          "liana_floor": true,
+          "liana_sig": true,
+          "passes_in_dataset": true
+        }
+      },
+      "direction_robust_both_datasets": true,
+      "passes_strict_both_datasets_cap4000": false
+    }
+  },
+  "n_axes_direction_robust_cap4000": 3,
+  "n_axes_passes_strict_both_datasets_cap4000": 2,
+  "direction_holds_all_axes": true,
+  "interpretation": "Direction holds for all 3 primary axes at cap=4000 (up in both engines, both atlases). Two SPP1 axes clear the a-priori effect-size floor in both atlases at cap=4000 (cap-robust). COL4A1->ITGA1_ITGB1 remains direction-concordant in both atlases but its effect size sits just below the a-priori floor in the snRNA atlas a12ccb9b at cap=4000 (CellChat rel_increase 19.0% vs 20% required; LIANA rank +40 vs 50, RRA +0.148 vs 0.15), so it drops from the STRICT both-datasets consensus at the higher cap = cap-sensitive/magnitude-borderline in one atlas."
+}

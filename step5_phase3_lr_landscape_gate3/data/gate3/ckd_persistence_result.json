@@ -1,0 +1,32 @@
+{
+  "case": "CKD",
+  "n_consensus_axes": 3,
+  "n_persist_both_datasets_both_engines": 1,
+  "n_persist_ge1_dataset_both_engines": 1,
+  "per_axis": [
+    {
+      "key": "receiver_endothelial|SPP1|ITGA5_ITGB1",
+      "n_datasets_up_both_engines": 0,
+      "n_datasets_cc_up": 0,
+      "n_datasets_liana_up": 1,
+      "persists_both_datasets_both_engines": false,
+      "persists_ge1_dataset_both_engines": false
+    },
+    {
+      "key": "receiver_stromal|SPP1|ITGAV_ITGB1",
+      "n_datasets_up_both_engines": 0,
+      "n_datasets_cc_up": 0,
+      "n_datasets_liana_up": 2,
+      "persists_both_datasets_both_engines": false,
+      "persists_ge1_dataset_both_engines": false
+    },
+    {
+      "key": "receiver_stromal|COL4A1|ITGA1_ITGB1",
+      "n_datasets_up_both_engines": 2,
+      "n_datasets_cc_up": 2,
+      "n_datasets_liana_up": 2,
+      "persists_both_datasets_both_engines": true,
+      "persists_ge1_dataset_both_engines": true
+    }
+  ]
+}

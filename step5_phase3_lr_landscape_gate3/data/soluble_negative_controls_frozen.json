@@ -1,0 +1,248 @@
+{
+  "description": "Soluble cytokine/chemokine NEGATIVE CONTROLS for the Pillar-3 EV-route specificity gate. These classical signal-peptide soluble mediators MUST NOT be flagged EV-compatible; if any is, the EV-compatibility annotation is declared UNINFORMATIVE.",
+  "frozen_date": "2026-07-26",
+  "n_controls": 38,
+  "genes": [
+    "CCL19",
+    "CCL2",
+    "CCL20",
+    "CCL21",
+    "CCL3",
+    "CCL4",
+    "CCL5",
+    "CCL7",
+    "CCL8",
+    "CSF1",
+    "CSF2",
+    "CSF3",
+    "CXCL1",
+    "CXCL10",
+    "CXCL11",
+    "CXCL12",
+    "CXCL13",
+    "CXCL16",
+    "CXCL2",
+    "CXCL3",
+    "CXCL5",
+    "CXCL6",
+    "CXCL8",
+    "CXCL9",
+    "HGF",
+    "IFNG",
+    "IGF1",
+    "IL10",
+    "IL15",
+    "IL18",
+    "IL1B",
+    "IL34",
+    "IL6",
+    "PDGFB",
+    "TGFB1",
+    "TGFB2",
+    "TNF",
+    "VEGFA"
+  ],
+  "validation": {
+    "n_in_NONEV_SECRETED_BACKGROUND": 37,
+    "n_of_total": 38,
+    "n_also_in_EV_TIER2_CARGO": 1,
+    "note": "Controls also appearing in EV_TIER2_CARGO illustrate the Vesiclepedia false-positive surface: presence in an EV catalog must NOT by itself yield an EV-compatible call \u2014 the specificity gate (signal-peptide + topology + over-secretome) must exclude them."
+  },
+  "records": [
+    {
+      "gene": "CCL19",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL2",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL20",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL21",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL3",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL4",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL5",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL7",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CCL8",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CSF1",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CSF2",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CSF3",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL1",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL10",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL11",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL12",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": true
+    },
+    {
+      "gene": "CXCL13",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL16",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL2",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL3",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL5",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL6",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL8",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "CXCL9",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "HGF",
+      "in_NONEV_SECRETED_BACKGROUND": false,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IFNG",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IGF1",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL10",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL15",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL18",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL1B",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL34",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "IL6",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "PDGFB",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "TGFB1",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "TGFB2",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "TNF",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    },
+    {
+      "gene": "VEGFA",
+      "in_NONEV_SECRETED_BACKGROUND": true,
+      "in_EV_TIER2_CARGO": false
+    }
+  ],
+  "source_genesets": {
+    "file": "/mnt/results/ev_aki_ckd_project/results/ev_genesets_frozen_v1.3.json",
+    "sha256_16": "046e780100d22906"
+  },
+  "self_sha256_16": "222c8e7f7b6832b3"
+}

@@ -1,0 +1,80 @@
+{
+  "test": "leave_one_donor_out_AKI",
+  "consensus_keys": [
+    "receiver_endothelial|SPP1|ITGA5_ITGB1",
+    "receiver_stromal|SPP1|ITGAV_ITGB1",
+    "receiver_stromal|COL4A1|ITGA1_ITGB1"
+  ],
+  "per_dataset": {
+    "a12ccb9b": {
+      "n_aki_donors": 16,
+      "axes": {
+        "receiver_endothelial|SPP1|ITGA5_ITGB1": {
+          "n_updir_iters": 15,
+          "n_iters": 16,
+          "frac_updir": 0.9375,
+          "majority_stable": true
+        },
+        "receiver_stromal|SPP1|ITGAV_ITGB1": {
+          "n_updir_iters": 16,
+          "n_iters": 16,
+          "frac_updir": 1.0,
+          "majority_stable": true
+        },
+        "receiver_stromal|COL4A1|ITGA1_ITGB1": {
+          "n_updir_iters": 16,
+          "n_iters": 16,
+          "frac_updir": 1.0,
+          "majority_stable": true
+        }
+      }
+    },
+    "dea717d4": {
+      "n_aki_donors": 14,
+      "axes": {
+        "receiver_endothelial|SPP1|ITGA5_ITGB1": {
+          "n_updir_iters": 14,
+          "n_iters": 14,
+          "frac_updir": 1.0,
+          "majority_stable": true
+        },
+        "receiver_stromal|SPP1|ITGAV_ITGB1": {
+          "n_updir_iters": 14,
+          "n_iters": 14,
+          "frac_updir": 1.0,
+          "majority_stable": true
+        },
+        "receiver_stromal|COL4A1|ITGA1_ITGB1": {
+          "n_updir_iters": 14,
+          "n_iters": 14,
+          "frac_updir": 1.0,
+          "majority_stable": true
+        }
+      }
+    }
+  },
+  "verdict": {
+    "receiver_endothelial|SPP1|ITGA5_ITGB1": {
+      "majority_stable_all_datasets": true,
+      "per_dataset_frac": {
+        "a12ccb9b": 0.9375,
+        "dea717d4": 1.0
+      }
+    },
+    "receiver_stromal|SPP1|ITGAV_ITGB1": {
+      "majority_stable_all_datasets": true,
+      "per_dataset_frac": {
+        "a12ccb9b": 1.0,
+        "dea717d4": 1.0
+      }
+    },
+    "receiver_stromal|COL4A1|ITGA1_ITGB1": {
+      "majority_stable_all_datasets": true,
+      "per_dataset_frac": {
+        "a12ccb9b": 1.0,
+        "dea717d4": 1.0
+      }
+    }
+  },
+  "all_axes_no_single_donor_driver": true
+}
