@@ -1,0 +1,7 @@
+key	dataset	cc_prob_CKD	cc_prob_normal	cc_dprob	cc_pval	cc_up_in_CKD	cc_floor	liana_rank_improvement	liana_rra_improvement	liana_up_in_CKD	liana_floor	up_both_engines
+receiver_endothelial|SPP1|ITGA5_ITGB1	a12ccb9b	0.0	0.0107719643611142	-0.0107719643611142	1.0	False	False	-45.0	-0.01792252162058139	False	False	False
+receiver_endothelial|SPP1|ITGA5_ITGB1	dea717d4	0.0	0.0305630738550849	-0.0305630738550849	1.0	False	False	60.0	0.23694003466492597	True	True	False
+receiver_stromal|SPP1|ITGAV_ITGB1	a12ccb9b	0.0075816629278464	0.0076946527966465	-0.00011298986880010041	0.0	False	False	12.0	0.06352383008129449	True	False	False
+receiver_stromal|SPP1|ITGAV_ITGB1	dea717d4	0.0	0.0307555480115977	-0.0307555480115977	1.0	False	False	49.0	0.2078148657425704	True	True	False
+receiver_stromal|COL4A1|ITGA1_ITGB1	a12ccb9b	0.013914129395425	0.0115024580705504	0.0024116713248746	0.0	True	True	8.0	0.07123385475197003	True	False	True
+receiver_stromal|COL4A1|ITGA1_ITGB1	dea717d4	0.0089856737143989	0.0	0.0089856737143989	0.0	True	True	120.0	0.26343496865049615	True	True	True

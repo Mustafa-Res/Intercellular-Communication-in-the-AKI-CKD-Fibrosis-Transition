@@ -1,0 +1,4 @@
+axis	n_shared_AKI_donors_excluded	a12ccb9b_donors_left	a12ccb9b_cells	a12ccb9b_dprob	a12ccb9b_rel_increase	a12ccb9b_passes_full	dea717d4_donors_left	dea717d4_cells	dea717d4_dprob	dea717d4_rel_increase	dea717d4_passes_full	survives_both_reduced_atlases
+receiver_endothelial|SPP1|ITGA5_ITGB1	10	6	2244	-0.010772	-1.0	False	4	2091	0.034176	1.1182	True	False
+receiver_stromal|SPP1|ITGAV_ITGB1	10	6	2244	0.031201	4.0549	True	4	2091	0.030882	1.0041	True	True
+receiver_stromal|COL4A1|ITGA1_ITGB1	10	6	2244	0.006708	0.5832	True	4	2091	0.0	0.0	False	False

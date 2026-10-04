@@ -1,0 +1,4 @@
+context	n	n_case	rho_all	p_all	rho_casesonly	p_casesonly
+native_GSE139061	48	39	0.703	0.0	0.64	0.0
+transplant_GSE30718	47	28	0.425	0.0029	0.34	0.0768
+transplant_GSE53769	18	8	0.084	0.7416	0.333	0.4198

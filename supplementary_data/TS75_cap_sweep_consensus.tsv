@@ -1,0 +1,13 @@
+axis	cap	cc_dprob_mean	n_datasets_pass	liana_rank_impr_mean	liana_rra_impr_mean
+receiver_endothelial|SPP1|ITGA5_ITGB1	1000	0.033405	2	112.5	0.3054
+receiver_endothelial|SPP1|ITGA5_ITGB1	2000	0.031	2		
+receiver_endothelial|SPP1|ITGA5_ITGB1	4000	0.02865	2		
+receiver_endothelial|SPP1|ITGA5_ITGB1	8000	0.029828	2	89.0	0.2439
+receiver_stromal|COL4A1|ITGA1_ITGB1	1000	0.012991	2	165.5	0.4382
+receiver_stromal|COL4A1|ITGA1_ITGB1	2000	0.0088	2		
+receiver_stromal|COL4A1|ITGA1_ITGB1	4000	0.00785	2		
+receiver_stromal|COL4A1|ITGA1_ITGB1	8000	0.008181	2	112.5	0.3329
+receiver_stromal|SPP1|ITGAV_ITGB1	1000	0.036587	2	104.0	0.276
+receiver_stromal|SPP1|ITGAV_ITGB1	2000	0.0341	2		
+receiver_stromal|SPP1|ITGAV_ITGB1	4000	0.03255	2		
+receiver_stromal|SPP1|ITGAV_ITGB1	8000	0.033223	2	83.5	0.2278

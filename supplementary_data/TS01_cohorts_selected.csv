@@ -1,0 +1,11 @@
+GSE,phenotype,role,platform,n_case,n_control,control_type,score,tier,caveat,notes
+GSE139061,AKI,discovery,RNA-seq (GPL20301),39,9,nephrectomy_margin,5,A,,Native-kidney AKI/ATN; canonical human AKI biopsy cohort
+GSE30718,AKI,discovery,microarray (GPL570),28,19,nephrectomy+pristine_protocol,5,A,,Kidney-allograft ATN vs nephrectomy + pristine protocol biopsy (Famulski/Halloran)
+GSE53769,AKI,discovery,"microarray (GPL16686, Affymetrix HuGene-2.0-ST)",8,10,protocol_biopsy,5,B,transplant ATN context; small n,Transplant ATN vs protocol biopsy w/o pathology
+GSE104954,CKD,discovery,microarray (ERCB TI),62,5,nephrectomy_margin,5,B,few controls; tag by diagnosis+compartment,ERCB (European Renal cDNA Bank) tubulointerstitial multi-disease (CKD/DKD/IgAN)
+GSE47185,CKD,discovery,microarray (ERCB),34,27,living_donor+nephrectomy,5,B,tag compartment,ERCB multi-disease microarray
+GSE99340,CKD,discovery,microarray (ERCB),120,21,living_donor+nephrectomy,5,B,tag compartment (glom+TI),Large ERCB multi-disease; living-donor controls
+GSE142153,DKD,replication,"microarray (GPL6480, Agilent)",23,10,healthy,4,B,"PBMC (blood), not kidney tissue",Blood-compartment DKD study; ineligible for the kidney-tissue replication role; never executed
+GSE294519,DKD,replication,RNA-seq,23,13,tumor_adjacent,5,B,tumor-adjacent controls (tag),DKD renal tubules vs paraneoplastic normal
+GSE104948,IgAN,replication,microarray (ERCB glom),27,5,tumor_nephrectomy,5,B,tag diagnosis; glomerular compartment,"ERCB glomerular; IgAN=27, also DKD/FSGS/lupus etc."
+GSE339456,CKD-progression,progression,RNA-seq (FFPE),18,17,stable_vs_progressive,4,C,no healthy control; FFPE,"Stable vs progressive CKD (progression contrast, not case/control)"

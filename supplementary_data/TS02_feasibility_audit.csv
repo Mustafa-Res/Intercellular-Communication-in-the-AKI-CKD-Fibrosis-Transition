@@ -1,0 +1,18 @@
+pillar,layer,source,verified,quantity,access,license,decision
+P1,Bulk RNA-seq AKI,GEO (esearch),YES,67 human AKI RNA-seq series,Open,varies,GO
+P1,Bulk RNA-seq CKD,GEO (esearch),YES,112 human CKD RNA-seq series,Open,varies,GO
+P1,Bulk RNA-seq fibrosis,GEO (esearch),YES,93 human kidney-fibrosis RNA-seq series,Open,varies,GO
+P1,Bulk RNA-seq DKD,GEO (esearch),YES,59 human diabetic-nephropathy RNA-seq series,Open,varies,GO (replication)
+P1,Bulk RNA-seq IgAN,GEO (esearch),YES,15 human IgAN RNA-seq series,Open,varies,GO (replication)
+P1/P2,EV gene set: exosome,QuickGO GO:0070062,YES,2115 human proteins,Open,CC-BY,GO
+P1/P2,EV gene set: MVB/biogenesis,QuickGO GO:0005771/0036258 + curated,YES,GO terms retrievable + literature ESCRT/Rab/tetraspanin,Open,CC-BY,GO
+P1/P2,EV cargo: ExoCarta/Vesiclepedia,exocarta.org/microvesicles.org,BLOCKED (Cloudflare),,"Open page, bot-gated file",CC-BY,SUBSTITUTE w/ GO+MSigDB+curated (contingency)
+P2,Single-cell AKI,CELLxGENE Census 2025-01-30,YES,"125,291 primary AKI cells",Open,CC-BY,GO
+P2,Single-cell CKD,CELLxGENE Census 2025-01-30,YES,"266,542 primary CKD cells",Open,CC-BY,GO
+P2,Single-cell reference,CELLxGENE Census 2025-01-30,YES,"597,379 primary normal kidney cells",Open,CC-BY,GO
+P2,Single-cell DKD (T2DM),CELLxGENE Census 2025-01-30,YES,"11,509 T2DM kidney cells",Open,CC-BY,GO (replication)
+P2,Within-dataset case/control,Census (KPMP atlas datasets),YES,>=2 datasets with AKI+CKD+normal together,Open,CC-BY,GO (avoids batch confound)
+P3,Spatial transcriptomics,KPMP Atlas (Visium/CODEX/IMC),PARTIAL,203 Visium + 164 CODEX + 81 IMC datasets,"Mixed open/controlled, no clean API",KPMP terms,GO w/ manual download; Census spatial as backup
+P4,GWAS (eGFR/CKD),CKDGen portal,YES (portal up),genome-wide summary stats,Open,per-study,GO
+P4,eQTL kidney,Susztaklab/NephQTL/GTEx,TO-CONFIRM at Pillar 4,kidney cis-eQTL,Open,per-study,GO
+P4,pQTL plasma,UKB-PPP/deCODE,TO-CONFIRM at Pillar 4,plasma protein QTL,Open,per-study,GO

@@ -1,0 +1,6 @@
+criterion	status	evidence
+4A_faithful_subtraction	PASS	soluble-control gate 0/38 flagged & informative=True; no post-hoc reclassification=True; frozen EV geneset v1.3=True (sha 049f9fe73da65360).
+4B_primary_secondary_wall	PASS	primary==3 consensus axes=True; primary/secondary disjoint=True (|primary|=3, |supporting|=41); naming-constraint-clean (tables+json+memo+mini-paper)=True (violations=[]).
+4C_quantitative_dominance	PASS	S4 reproducible survivors n=34: soluble+ECM=34, EV-compatible=0 (frac_ev=0.0); primary consensus EV-compatible=0. Route counts={'ECM': 24, 'Soluble-classical': 10}.
+4D_cross_pillar_arc	PASS	P1 ribosomal-null FAIL=True & 1C FAIL=True; P2 ribosomal VIOLATED=True & effect-floor FAIL=True & overall FAIL=True; SHARED ribosomal specificity-failure mode P1&P2=True; P3 FULL PASS=True yet 0/3 EV-compatible=True; P4 survivors soluble+ECM & EV=0=True. No contradiction across locked gate verdicts.
+GATE4_OVERALL	PASS	Gate 4 = 4A AND 4B AND 4C AND 4D (synthesis-integrity).

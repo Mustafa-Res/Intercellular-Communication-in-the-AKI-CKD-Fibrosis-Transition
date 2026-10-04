@@ -1,0 +1,16 @@
+source	target	pathway_name	prob	pval
+PT	receiver_endothelial	SPP1	0.0632862280595685	0
+PT	receiver_endothelial	VEGF	0.023777197346345	0
+PT	receiver_myeloid	ADGRE	0.00319528603352775	0
+PT	receiver_myeloid	APP	0.00230917738715392	0
+PT	receiver_myeloid	MIF	0.316556584331724	0
+PT	receiver_myeloid	Prostaglandin	0.00235250226138584	0
+PT	receiver_myeloid	SPP1	0.0653090234489475	0
+PT	receiver_myeloid	THY1	0.0182801970020835	0
+PT	receiver_stromal	ADGRA	0.00143283812320143	0
+PT	receiver_stromal	CD46	0.00282425469020285	0
+PT	receiver_stromal	CypA	0.0614768179474603	0
+PT	receiver_stromal	GRN	0.00107197701051586	0
+PT	receiver_stromal	MIF	0.0182500210819427	0
+PT	receiver_stromal	PARs	0.00336496411743484	0
+PT	receiver_stromal	SPP1	0.0728746218309782	0

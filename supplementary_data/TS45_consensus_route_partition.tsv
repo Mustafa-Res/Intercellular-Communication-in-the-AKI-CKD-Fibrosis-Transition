@@ -1,0 +1,4 @@
+key	receiver	ligand	receptor	route_tag	ev_compatible	annotation_source	n_datasets_full_pass	is_consensus	pathway_name	cc_dprob_mean	liana_rank_improvement_mean	liana_rra_improvement_mean	tier
+receiver_stromal|COL4A1|ITGA1_ITGB1	stromal	COL4A1	ITGA1_ITGB1	ECM	False	cellchat_pair	2	True	COLLAGEN	0.0087659398221138	128.0	0.3603130029516472	Tier 2 (magnitude-borderline at cap4000)
+receiver_endothelial|SPP1|ITGA5_ITGB1	endothelial	SPP1	ITGA5_ITGB1	Soluble-classical	False	cellchat_pair	2	True	SPP1	0.0309827083731431	91.5	0.2567764750443871	Tier 1 (cap-robust)
+receiver_stromal|SPP1|ITGAV_ITGB1	stromal	SPP1	ITGAV_ITGB1	Soluble-classical	False	cellchat_pair	2	True	SPP1	0.0341238607677186	82.0	0.2187835682898417	Tier 1 (cap-robust)

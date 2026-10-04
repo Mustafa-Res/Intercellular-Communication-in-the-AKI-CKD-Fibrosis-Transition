@@ -1,0 +1,15 @@
+component	role	version
+R	engine runtime (CellChat, limma, edgeR)	4.4.3
+Python	engine runtime (LIANA, scanpy, gseapy)	3.11.13
+CellChat	LR inference engine (R)	2.2.0.9001 (v2)
+CellChatDB	LR interaction database (CellChat built-in)	CellChatDB.human, v2 (as shipped with CellChat 2.2.0)
+Seurat	CellChat input object construction (R)	5.5.1
+LIANA	LR inference engine (Python), rank_aggregate, resource 'consensus'	1.10.0
+scanpy	single-cell preprocessing/subsampling (Python)	1.11.4
+anndata	single-cell data containers (Python)	0.12.1
+gseapy	GSEA prerank + ssGSEA (Python); 1,000 gene-set permutations	1.1.9
+limma	bulk + pseudobulk differential expression (R)	3.62.1
+edgeR	pseudobulk sensitivity DE, QLF (R)	4.4.0
+metafor	transplant random-effects meta-analysis (R)	not recorded for the original run; not re-used in this revision
+cellxgene-census	Census data pull (Python), Census release 2025-01-30	1.17.0
+pandas/numpy/scipy	data handling (Python)	2.3.1 / 2.1.0 / 1.15.0

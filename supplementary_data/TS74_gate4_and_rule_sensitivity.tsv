@@ -1,0 +1,3 @@
+rule	S2	S3	S4	S5	S4_ECM	S4_soluble	S4_contact	S4_EV_compatible
+OR (pre-registered primary)	44	44	34	3	24	10	0	0
+AND (sensitivity: significance required in both engines)	44	34	34	3	24	10	0	0

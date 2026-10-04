@@ -1,0 +1,7 @@
+criterion	evidence	verdict
+1A native EV enriched	NES=-0.72, FDR=0.980	FAIL
+1B transplant EV enriched	NES=+1.38, FDR=0.017	PASS
+1C-i EV-core cross-context concordance	rho=+0.14 p=0.19; dir-agree 35/87=40% sign-p=0.97	FAIL
+1C-ii EV>matched bg BOTH contexts	native p=0.361; transplant p=0.0001	FAIL
+1C-iii neg-control ladder clean (ribosomal null)	ribo native p=0.0001; ribo transplant p=0.0011	FAIL
+GATE 1C (ALL of i,ii,iii)	conserved EV-specific program	FAIL
