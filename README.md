@@ -9,9 +9,6 @@ Repository layout
 
 ├── DATA_AND_CODE_AVAILABILITY.md    # data & code availability statement
 
-├── maps/                            # crosswalk maps: deliverable→script→input traceability,
-│                                    #   figure/table→claim map, reproduction steps
-
 ├── step1_preregistration/           # plan + addendum, run config, feasibility audit
 
 ├── step2_ev_genesets_controls/      # gene-set sources, builder module, content-hashed frozen gene sets
