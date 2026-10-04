@@ -1,0 +1,36 @@
+{
+  "cap": 2000,
+  "note": "Strictly-nested; all stages at '>=1 atlas' scope until the explicit cross-atlas step (S5).",
+  "stages": [
+    {
+      "id": "S1",
+      "label": "Candidate PT->receiver interactions",
+      "n": 1311,
+      "criterion": "unique axis in any engine, any atlas"
+    },
+    {
+      "id": "S2",
+      "label": "Cross-engine direction agreement",
+      "n": 44,
+      "criterion": "up-in-AKI in BOTH engines (CellChat & LIANA), >=1 atlas"
+    },
+    {
+      "id": "S3",
+      "label": "+ Statistical support",
+      "n": 44,
+      "criterion": "additionally significant in >=1 engine, >=1 atlas"
+    },
+    {
+      "id": "S4",
+      "label": "+ Effect-size floor",
+      "n": 34,
+      "criterion": "additionally passes a-priori absolute+relative floor, >=1 atlas (full single-atlas pass)"
+    },
+    {
+      "id": "S5",
+      "label": "Cross-atlas replication (consensus)",
+      "n": 3,
+      "criterion": "full evidence chain in BOTH atlases"
+    }
+  ]
+}

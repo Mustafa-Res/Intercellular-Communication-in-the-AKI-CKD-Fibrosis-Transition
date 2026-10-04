@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="627.235734pt" height="315.286666pt" viewBox="0 0 627.235734 315.286666" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-20T08:21:18.140622</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 315.286666 
+L 627.235734 315.286666 
+L 627.235734 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 311.511871 70.584574 
+Q 311.511871 73.85764 311.511871 76.124476 
+" style="fill: none; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 312.911871 73.324476 
+L 311.511871 76.124476 
+L 310.111871 73.324476 
+z
+" style="fill: #888888; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 311.511871 108.245109 
+Q 311.511871 111.518176 311.511871 113.785011 
+" style="fill: none; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 312.911871 110.985011 
+L 311.511871 113.785011 
+L 310.111871 110.985011 
+z
+" style="fill: #888888; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 311.511871 145.905645 
+Q 311.511871 149.178711 311.511871 151.445547 
+" style="fill: none; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 312.911871 148.645547 
+L 311.511871 151.445547 
+L 310.111871 148.645547 
+z
+" style="fill: #888888; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 309.837444 182.655491 
+Q 284.023604 199.454242 259.053138 215.704156 
+" style="fill: none; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 262.163574 215.350337 
+L 259.053138 215.704156 
+L 260.636344 213.003516 
+z
+" style="fill: #888888; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 313.186298 182.655491 
+Q 339.000137 199.454242 363.970604 215.704156 
+" style="fill: none; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 362.387397 213.003516 
+L 363.970604 215.704156 
+L 360.860168 215.350337 
+z
+" style="fill: #888888; stroke: #888888; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 235.574076 67.52973 
+L 387.449666 67.52973 
+Q 390.885765 67.52973 390.885765 66.77652 
+L 390.885765 43.276346 
+Q 390.885765 42.523135 387.449666 42.523135 
+L 235.574076 42.523135 
+Q 232.137976 42.523135 232.137976 43.276346 
+L 232.137976 66.77652 
+Q 232.137976 67.52973 235.574076 67.52973 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #b9c4cc; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 297.423864 105.190266 
+L 325.599878 105.190266 
+Q 329.035977 105.190266 329.035977 104.437055 
+L 329.035977 80.936881 
+Q 329.035977 80.18367 325.599878 80.18367 
+L 297.423864 80.18367 
+Q 293.987764 80.18367 293.987764 80.936881 
+L 293.987764 104.437055 
+Q 293.987764 105.190266 297.423864 105.190266 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #b9c4cc; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 297.423864 142.850801 
+L 325.599878 142.850801 
+Q 329.035977 142.850801 329.035977 142.097591 
+L 329.035977 118.597417 
+Q 329.035977 117.844206 325.599878 117.844206 
+L 297.423864 117.844206 
+Q 293.987764 117.844206 293.987764 118.597417 
+L 293.987764 142.097591 
+Q 293.987764 142.850801 297.423864 142.850801 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #b9c4cc; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 297.423864 180.511337 
+L 325.599878 180.511337 
+Q 329.035977 180.511337 329.035977 179.758126 
+L 329.035977 156.257952 
+Q 329.035977 155.504741 325.599878 155.504741 
+L 297.423864 155.504741 
+Q 293.987764 155.504741 293.987764 156.257952 
+L 293.987764 179.758126 
+Q 293.987764 180.511337 297.423864 180.511337 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #d55e00; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-style: italic; font-size: 6.2px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #444444" x="311.511871" y="187.688377" transform="rotate(-0 311.511871 187.688377)">Route attribution of the 3 consensus axes  (partition, not a further filter)</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 232.137976 242.65122 
+L 280.930587 242.65122 
+Q 284.366686 242.65122 284.366686 241.89801 
+L 284.366686 218.397835 
+Q 284.366686 217.644625 280.930587 217.644625 
+L 232.137976 217.644625 
+Q 228.701877 217.644625 228.701877 218.397835 
+L 228.701877 241.89801 
+Q 228.701877 242.65122 232.137976 242.65122 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #ffffff; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #009e73; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #009e73" transform="translate(239.360219 257.845579)">EV-exclusive</text>
+    <text style="font-size: 6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #009e73" transform="translate(204.84475 264.308329)">(frozen EV rule vs soluble background)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 342.093155 242.65122 
+L 390.885765 242.65122 
+Q 394.321865 242.65122 394.321865 241.89801 
+L 394.321865 218.397835 
+Q 394.321865 217.644625 390.885765 217.644625 
+L 342.093155 217.644625 
+Q 338.657056 217.644625 338.657056 218.397835 
+L 338.657056 241.89801 
+Q 338.657056 242.65122 342.093155 242.65122 
+z
+" clip-path="url(#pf421e15de4)" style="fill: #2f8f5b; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #1d6b41" transform="translate(317.554304 257.845579)">Soluble + ECM constructive program</text>
+    <text style="font-size: 6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; fill: #1d6b41" transform="translate(309.970398 264.308329)">(SPP1 soluble-classical; collagen-IV ECM)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle" x="320.102119" y="7.599844" transform="rotate(-0 320.102119 7.599844)">Progressive, pre-registered evidence refinement of AKI PT→receiver communication</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #222222" x="311.511871" y="57.353776" transform="rotate(-0 311.511871 57.353776)">1,311</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: end" x="225.609387" y="56.836589" transform="rotate(-0 225.609387 56.836589)">Candidate PT→receiver interactions</text>
+   </g>
+   <g id="text_7">
+    <text style="font-style: italic; font-size: 5.6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="397.414354" y="56.474558" transform="rotate(-0 397.414354 56.474558)">all axes, any engine, any atlas</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #222222" x="311.511871" y="95.014312" transform="rotate(-0 311.511871 95.014312)">44</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: end" x="225.609387" y="94.497124" transform="rotate(-0 225.609387 94.497124)">Cross-engine direction + statistical support</text>
+   </g>
+   <g id="text_10">
+    <text style="font-style: italic; font-size: 5.6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="397.414354" y="94.135093" transform="rotate(-0 397.414354 94.135093)">up-in-AKI in both engines, significant in ≥1 engine (≥1 atlas)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #222222" x="311.511871" y="132.674847" transform="rotate(-0 311.511871 132.674847)">34</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: end" x="225.609387" y="132.15766" transform="rotate(-0 225.609387 132.15766)">+ Effect-size floor (reproducible)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-style: italic; font-size: 5.6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="397.414354" y="131.795629" transform="rotate(-0 397.414354 131.795629)">a-priori absolute + relative floor met (≥1 atlas)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="311.511871" y="170.335383" transform="rotate(-0 311.511871 170.335383)">3</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: end" x="225.609387" y="169.818195" transform="rotate(-0 225.609387 169.818195)">Cross-atlas replication (consensus)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-style: italic; font-size: 5.6px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="397.414354" y="169.456164" transform="rotate(-0 397.414354 169.456164)">full evidence chain in BOTH atlases</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #009e73" x="256.534281" y="232.992454" transform="rotate(-0 256.534281 232.992454)">0</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="366.48946" y="232.992454" transform="rotate(-0 366.48946 232.992454)">3</text>
+   </g>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 5.3px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="313.617867" y="305.297809" transform="rotate(-0 313.617867 305.297809)">Funnel (top) is strictly nested — each stage a subset of the one above; every narrowing step applies a pre-registered criterion (right), not post-hoc selection. Bottom: the 3 consensus axes partitioned by route (0 EV-exclusive + 3 soluble/ECM = 3). Primary cap = 2000.</text>
+  </g>
+  <g id="text_20">
+   <text style="font-style: italic; font-size: 4.9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #777777" x="313.617867" y="312.829916" transform="rotate(-0 313.617867 312.829916)">Initial candidate interactions represent all PT→receiver interactions identified by at least one engine in at least one atlas, prior to replication and specificity filtering. See Fig. F_FUNNEL_SUPP for the expression-floor sensitivity analysis.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf421e15de4">
+   <rect x="119.090308" y="13.599844" width="402.023622" height="263.623748"/>
+  </clipPath>
+ </defs>
+</svg>

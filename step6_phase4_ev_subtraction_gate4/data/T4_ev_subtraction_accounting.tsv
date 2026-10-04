@@ -1,0 +1,10 @@
+ligand	n_axes	route_tag	receivers	in_EV_TIER1_PRIMARY	in_EV_TIER2_CARGO	in_NONEV_SECRETED_BACKGROUND	ev_compatible	subtraction_reason
+SPP1	8	Soluble-classical	endothelial;myeloid;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+LAMB1	5	ECM	endothelial;myeloid;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+LAMA5	5	ECM	endothelial;myeloid;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+COL4A1	4	ECM	endothelial;stromal	False	False	True	False	not in EV cargo
+COL4A2	4	ECM	endothelial;myeloid;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+THBS1	4	ECM	endothelial;myeloid;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+LAMC1	2	ECM	endothelial;stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+SLIT2	1	Soluble-classical	stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV
+PROS1	1	Soluble-classical	stromal	False	True	True	False	EV cargo BUT classical signal-peptide background -> non-EV

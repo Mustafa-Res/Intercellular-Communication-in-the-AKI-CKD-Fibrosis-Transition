@@ -1,0 +1,38 @@
+{
+  "seed": 1,
+  "cap": 2000,
+  "ev_geneset_version": "v1.3",
+  "ev_geneset_sha16": "049f9fe73da65360",
+  "reproducible_population_S4": {
+    "n": 34,
+    "route_tag_counts": {
+      "ECM": 24,
+      "Soluble-classical": 10
+    },
+    "n_ev_compatible": 0,
+    "frac_ev_compatible": 0.0
+  },
+  "primary_consensus": {
+    "n": 3,
+    "route_tag_counts": {
+      "Soluble-classical": 2,
+      "ECM": 1
+    },
+    "n_ev_compatible": 0
+  },
+  "supporting_reproducible_communication_landscape": {
+    "n": 41,
+    "route_tag_counts": {
+      "ECM": 30,
+      "Soluble-classical": 9,
+      "Contact": 2
+    },
+    "n_ev_compatible": 0,
+    "definition": "dir_both & sig_ge1 in >=1 atlas, NOT consensus (frozen secondary rule)"
+  },
+  "soluble_negative_control_gate": {
+    "n_controls": 38,
+    "n_scored_ev_compatible": 0,
+    "informative": true
+  }
+}

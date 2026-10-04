@@ -1,0 +1,7 @@
+check	value	interpretation
+Flaggable universe (EV cargo AND NOT secreted background)	1653 of 2115 cargo proteins	The rule can return EV-exclusive for most cargo proteins; it is not vacuous at the gene-set level.
+Positive controls flagged (signal-peptide-free EV cargo)	12/12: SDCBP, PDCD6IP, TSG101, HSPA8, ANXA2, GAPDH, HSP90AA1, CD9, CD81, CD63, FLOT1, FLOT2	Canonical EV cargo lacking classical signal peptides are flagged EV-exclusive, as required.
+Negative control: 38-cytokine soluble panel	0/38 flagged	Classically secreted cytokines sit in the background and cannot be flagged (by construction).
+Non-classical secretion control: MIF	not flagged (in background despite no signal peptide)	The UniProt-secreted background includes non-classical secretion; the rule is annotation-based, not signal-peptide-based.
+Flaggable ligands in the 217-ligand LR candidate universe	40 of 217 (18%)	A positive result was possible but the LR-detectable universe is depleted of flaggable ligands; 0/34 is partly structural.
+Survivor ligands flaggable (SPP1, COL4A1/2, LAMA5, LAMB1, LAMC1, THBS1, PROS1, SLIT2)	0 of 9	All nine survivor ligands are classically secreted or matrix proteins; none can be flagged under the frozen rule.

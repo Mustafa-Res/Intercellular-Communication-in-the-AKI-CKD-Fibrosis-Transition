@@ -1,0 +1,44 @@
+{
+  "proxy": "percentile-normalised max(LIANA lr_means, CellChat prob) across atlases, AKI, PT sender",
+  "coverage": {
+    "total": 1311,
+    "either_engine": 1145,
+    "both": 70,
+    "liana_only": 1051,
+    "cellchat_only": 24
+  },
+  "sweep": [
+    {
+      "pctl_floor": 0.0,
+      "S1": 1311,
+      "S2": 44,
+      "S3": 44,
+      "S4": 34,
+      "S5": 3
+    },
+    {
+      "pctl_floor": 0.1,
+      "S1": 1033,
+      "S2": 44,
+      "S3": 44,
+      "S4": 34,
+      "S5": 3
+    },
+    {
+      "pctl_floor": 0.25,
+      "S1": 876,
+      "S2": 44,
+      "S3": 44,
+      "S4": 34,
+      "S5": 3
+    },
+    {
+      "pctl_floor": 0.5,
+      "S1": 579,
+      "S2": 36,
+      "S3": 36,
+      "S4": 26,
+      "S5": 3
+    }
+  ]
+}
