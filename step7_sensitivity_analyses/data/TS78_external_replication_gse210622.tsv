@@ -1,0 +1,4 @@
+axis	dataset	prob_AKI	prob_normal	dprob	rel_increase	pval_AKI	cc_up	cc_sig	cc_floor	liana_rank_improvement	liana_rra_improvement	liana_up	liana_floor	passes_full_criteria
+receiver_endothelial|SPP1|ITGA5_ITGB1	gse210622	0.081662	0.022938	0.058724	2.5601	0.0	True	True	True	37.0	0.042	True	False	False
+receiver_stromal|SPP1|ITGAV_ITGB1	gse210622	0.053638	0.035236	0.018402	0.5222	0.04	True	True	True	29.0	0.0347	True	False	False
+receiver_stromal|COL4A1|ITGA1_ITGB1	gse210622	0.025474	0.032693	-0.007219	-0.2208	0.0	False	False	False	-53.0	-0.0661	False	False	False
